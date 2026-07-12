@@ -199,3 +199,8 @@ IoT             ██████████░░ 85%
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sam786-web&layout=compact&theme=tokyonight"/>
 
 </p>
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Sam786-web/Sam786-web/output/github-contribution-grid-snake-dark.svg" alt="Snake animation" />
+</p>
