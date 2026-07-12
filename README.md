@@ -51,3 +51,13 @@ Status    :: Building awesome things 🚀
 ```
 
 ---
+## 👩‍💻 Terminal Portrait
+
+<details>
+<summary>🖥️ Click to reveal my ASCII Portrait</summary>
+
+```text
+PASTE YOUR ENTIRE ASCII ART HERE
+```
+
+</details>
