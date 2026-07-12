@@ -1,110 +1,147 @@
-<svg width="1600" height="500" viewBox="0 0 1600 500" xmlns="http://www.w3.org/2000/svg">
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500">
 
-<defs>
+  <defs>
 
-<linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-<stop offset="0%" stop-color="#05030d"/>
-<stop offset="50%" stop-color="#0d0718"/>
-<stop offset="100%" stop-color="#160814"/>
-</linearGradient>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#05030d"/>
+      <stop offset="100%" stop-color="#14081c"/>
+    </linearGradient>
 
-<linearGradient id="pink" x1="0%" y1="0%" x2="100%" y2="0%">
-<stop offset="0%" stop-color="#ff4fa3"/>
-<stop offset="100%" stop-color="#ff7ecb"/>
-</linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff4fa3"/>
+      <stop offset="100%" stop-color="#ff7ecb"/>
+    </linearGradient>
 
-<filter id="glow">
-<feGaussianBlur stdDeviation="6" result="blur"/>
-<feMerge>
-<feMergeNode in="blur"/>
-<feMergeNode in="SourceGraphic"/>
-</feMerge>
-</filter>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
 
-</defs>
+  </defs>
 
-<rect width="1600" height="500" fill="url(#bg)"/>
+  <!-- Background -->
+  <rect width="1600" height="500" fill="url(#bg)"/>
 
-<g opacity="0.15">
+  <!-- Soft Grid -->
+  <g opacity="0.05">
 
-<path d="M0 60 H1600" stroke="#ff4fa3"/>
-<path d="M0 140 H1600" stroke="#ff4fa3"/>
-<path d="M0 220 H1600" stroke="#ff4fa3"/>
-<path d="M0 300 H1600" stroke="#ff4fa3"/>
-<path d="M0 380 H1600" stroke="#ff4fa3"/>
+    <path d="M0 80H1600" stroke="#ff4fa3"/>
+    <path d="M0 160H1600" stroke="#ff4fa3"/>
+    <path d="M0 240H1600" stroke="#ff4fa3"/>
+    <path d="M0 320H1600" stroke="#ff4fa3"/>
+    <path d="M0 400H1600" stroke="#ff4fa3"/>
 
-</g>
+    <path d="M200 0V500" stroke="#ff4fa3"/>
+    <path d="M500 0V500" stroke="#ff4fa3"/>
+    <path d="M800 0V500" stroke="#ff4fa3"/>
+    <path d="M1100 0V500" stroke="#ff4fa3"/>
+    <path d="M1400 0V500" stroke="#ff4fa3"/>
 
-<circle cx="1220" cy="250" r="150"
-fill="none"
-stroke="#ff4fa3"
-stroke-width="2"
-opacity="0.35"/>
+  </g>
 
-<circle cx="1220" cy="250" r="190"
-fill="none"
-stroke="#ff4fa3"
-stroke-width="1"
-opacity="0.18"/>
+  <!-- Accent Line -->
+  <rect x="90" y="90" width="120" height="5" rx="3" fill="url(#accent)"/>
 
-<text
-x="90"
-y="165"
-font-size="72"
-font-family="monospace"
-fill="#ffffff"
-font-weight="700">
+  <!-- Name -->
+  <text
+      x="90"
+      y="170"
+      font-size="72"
+      font-family="Segoe UI, Arial, sans-serif"
+      font-weight="700"
+      fill="#ffffff">
 
-Samiya Patel
+      Samiya Patel
 
-</text>
+  </text>
 
-<text
-x="95"
-y="225"
-font-size="30"
-font-family="monospace"
-fill="#ff7ecb">
+  <!-- Role -->
+  <text
+      x="90"
+      y="225"
+      font-size="28"
+      font-family="Segoe UI, Arial, sans-serif"
+      fill="#ff7ecb">
 
-AI Developer • IoT • Cybersecurity • Blockchain
+      AI Developer • Spring Boot • IoT • Cybersecurity • Blockchain
 
-</text>
+  </text>
 
-<text
-x="95"
-y="285"
-font-size="22"
-font-family="monospace"
-fill="#c9c9c9">
+  <!-- Tagline -->
+  <text
+      x="90"
+      y="285"
+      font-size="22"
+      font-family="Segoe UI, Arial, sans-serif"
+      fill="#c8c8c8">
 
-Building intelligent systems that solve real-world problems.
+      Building intelligent software that solves real-world problems.
 
-</text>
+  </text>
 
-<text
-x="95"
-y="340"
-font-size="18"
-font-family="monospace"
-fill="#8c8c8c">
+  <!-- Skills -->
+  <text
+      x="90"
+      y="340"
+      font-size="18"
+      font-family="Consolas, monospace"
+      fill="#8d8d8d">
 
-Java • Spring Boot • Python • Docker • AI • GitHub
+      Java • Python • Spring Boot • Docker • MySQL • Git • AI
 
-</text>
+  </text>
 
-<g filter="url(#glow)">
+  <!-- Terminal Card -->
+  <g filter="url(#glow)">
 
-<text
-x="100"
-y="435"
-font-size="22"
-font-family="monospace"
-fill="url(#pink)">
+    <rect
+      x="90"
+      y="375"
+      width="520"
+      height="70"
+      rx="10"
+      fill="#0b0913"
+      stroke="#ff4fa3"/>
 
-&gt; initializing.dev ...
+    <text
+      x="115"
+      y="418"
+      font-size="18"
+      font-family="Consolas"
+      fill="#ff7ecb">
 
-</text>
+      > Building the future, one commit at a time_
 
-</g>
+    </text>
+
+  </g>
+
+  <!-- Decorative Circle -->
+  <circle
+      cx="1360"
+      cy="250"
+      r="110"
+      fill="none"
+      stroke="#ff4fa3"
+      stroke-width="2"
+      opacity="0.25"/>
+
+  <circle
+      cx="1360"
+      cy="250"
+      r="145"
+      fill="none"
+      stroke="#ff4fa3"
+      stroke-width="1"
+      opacity="0.12"/>
+
+  <circle
+      cx="1360"
+      cy="250"
+      r="6"
+      fill="#ff4fa3"/>
 
 </svg>
