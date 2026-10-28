@@ -146,33 +146,6 @@ Fix one bug, compile it again...
 127 little bugs in the code.
 
 </details>
-name: Generate Snake
-
-on:
-  schedule:
-    - cron: "0 0 * * *"
-  workflow_dispatch:
-  push:
-    branches: [main]
-
-jobs:
-  generate:
-    permissions:
-      contents: write
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=#22D3EE&color_dots=#161b22,#312E81,#4338CA,#4F46E5,#06B6D4
-
-      - uses: crazy-max/ghaction-github-pages@v4
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Sam786-web/Sam786-web/output/github-snake-dark.svg" alt="snake eating contributions"/>
