@@ -129,9 +129,5 @@ Blockchain platform tracking e-waste from manufacturer to recycler, with **Solid
 </p>
 
 <p align="center">
-  <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sam786-web&bg_color=0D1117&color=22D3EE&line=4F46E5&point=FFFFFF&area=true&area_color=4F46E5&hide_border=true" alt="activity graph"/>
-</p>
-
-<p align="center">
   <img src="assets/footer.svg" width="100%" alt="footer"/>
 </p>
