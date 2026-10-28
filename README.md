@@ -1,6 +1,5 @@
-<!-- ================= HEADER ================= -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4F46E5,100:06B6D4&height=220&section=header&text=Samiya%20Patel&fontSize=52&fontColor=ffffff&fontAlignY=36&desc=Backend%20%26%20Android%20Developer%20%E2%80%A2%20AI%20Agents%20%E2%80%A2%20IEEE%20Author&descSize=17&descAlignY=58&animation=fadeIn" width="100%" alt="header"/>
+  <img src="assets/header.svg" width="100%" alt="Samiya Patel"/>
 </p>
 
 <p align="center">
@@ -9,15 +8,14 @@
 
 <p align="center">
   <a href="mailto:samiyap75@gmail.com"><img src="https://img.shields.io/badge/Email-4F46E5?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
-  <a href="https://www.linkedin.com/in/samiya-patel-638916292"><img src="https://img.shields.io/badge/LinkedIn-0891B2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/></a>
+  <a href="https://www.linkedin.com/in/samiya-patel-638916292"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge" alt="LinkedIn"/></a>
   <img src="https://img.shields.io/badge/Pune,%20India-1E293B?style=for-the-badge&logo=googlemaps&logoColor=22D3EE" alt="Location"/>
-  <img src="https://img.shields.io/badge/Open%20to%20Work-06B6D4?style=for-the-badge&logo=handshake&logoColor=white" alt="Open to work"/>
+  <img src="https://img.shields.io/badge/Open%20to%20Work-06B6D4?style=for-the-badge" alt="Open to work"/>
 </p>
 
-<br/>
+---
 
-<!-- ================= ABOUT ================= -->
-## <img src="https://img.shields.io/badge/-About%20Me-4F46E5?style=flat-square" height="28"/>
+## 👩‍💻 About Me
 
 <table>
 <tr>
@@ -46,8 +44,9 @@ currently: Freelancing on Call IQ
 </tr>
 </table>
 
-<!-- ================= PROJECTS ================= -->
-## <img src="https://img.shields.io/badge/-Featured%20Projects-0891B2?style=flat-square" height="28"/>
+---
+
+## 🚀 Featured Projects
 
 <table>
 <tr>
@@ -99,8 +98,9 @@ Blockchain platform tracking e-waste from manufacturer to recycler, with **Solid
 </tr>
 </table>
 
-<!-- ================= TECH STACK ================= -->
-## <img src="https://img.shields.io/badge/-Tech%20Stack-4F46E5?style=flat-square" height="28"/>
+---
+
+## 🛠️ Tech Stack
 
 <p align="center">
   <b>Languages</b><br/><br/>
@@ -115,8 +115,9 @@ Blockchain platform tracking e-waste from manufacturer to recycler, with **Solid
   <img src="https://skillicons.dev/icons?i=mysql,sqlite,docker,git,github,linux,idea,vscode&theme=dark" alt="tools"/>
 </p>
 
-<!-- ================= STATS ================= -->
-## <img src="https://img.shields.io/badge/-GitHub%20Analytics-0891B2?style=flat-square" height="28"/>
+---
+
+## 📊 GitHub Analytics
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=Sam786-web&show_icons=true&hide_border=true&bg_color=0D1117&title_color=22D3EE&icon_color=818CF8&text_color=C9D1D9&ring_color=4F46E5" alt="stats"/>
@@ -131,7 +132,6 @@ Blockchain platform tracking e-waste from manufacturer to recycler, with **Solid
   <img width="100%" src="https://github-readme-activity-graph.vercel.app/graph?username=Sam786-web&bg_color=0D1117&color=22D3EE&line=4F46E5&point=FFFFFF&area=true&area_color=4F46E5&hide_border=true" alt="activity graph"/>
 </p>
 
-<!-- ================= FOOTER ================= -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:06B6D4,100:4F46E5&height=120&section=footer" width="100%" alt="footer"/>
+  <img src="assets/footer.svg" width="100%" alt="footer"/>
 </p>
