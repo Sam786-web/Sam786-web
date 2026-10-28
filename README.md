@@ -173,7 +173,11 @@ jobs:
           build_dir: dist
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Sam786-web/Sam786-web/output/github-snake-dark.svg" alt="snake eating contributions"/>
+</p>
+
 <p align="center">
   <img src="assets/footer.svg" width="100%" alt="footer"/>
 </p>
