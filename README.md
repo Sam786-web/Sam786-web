@@ -127,7 +127,53 @@ Blockchain platform tracking e-waste from manufacturer to recycler, with **Solid
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Sam786-web&hide_border=true&background=0D1117&ring=4F46E5&fire=22D3EE&currStreakLabel=22D3EE&sideLabels=C9D1D9&dates=8B949E&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="streak"/>
 </p>
+---
 
+## 😄 Fun Facts
+
+- 🤖 I built an AI that chases teammates for updates... because I was tired of doing it myself
+- 📞 My Android app has heard more sales calls than anyone in that office
+- 🎙️ My meeting agent works offline, unlike me without Wi-Fi
+- 🐳 "It works on my machine," so I Dockerized my machine
+- 🧠 My LLM has 4 backup plans. I have zero for my weekend
+
+<details>
+<summary>🐛 <b>Click for a developer secret</b></summary>
+<br/>
+99 little bugs in the code,
+99 little bugs.
+Fix one bug, compile it again...
+127 little bugs in the code.
+
+</details>
+name: Generate Snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  generate:
+    permissions:
+      contents: write
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=#22D3EE&color_dots=#161b22,#312E81,#4338CA,#4F46E5,#06B6D4
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  
 <p align="center">
   <img src="assets/footer.svg" width="100%" alt="footer"/>
 </p>
