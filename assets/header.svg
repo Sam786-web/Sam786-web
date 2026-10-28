@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="260" viewBox="0 0 1200 260">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#4F46E5"/>
+      <stop offset="100%" stop-color="#06B6D4"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .name { font: 700 64px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #ffffff; }
+    .sub  { font: 500 22px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #E0F2FE; letter-spacing: 1px; }
+    .f1 { animation: fade 1.2s ease-out both; }
+    .f2 { animation: fade 1.2s ease-out 0.4s both; }
+    @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+  </style>
+  <path d="M0 0 H1200 V230 Q900 180 600 228 T0 222 Z" fill="#06B6D4" opacity="0.35"/>
+  <path d="M0 0 H1200 V200 Q900 255 600 212 T0 215 Z" fill="url(#g)"/>
+  <text x="600" y="108" text-anchor="middle" class="name f1">Samiya Patel</text>
+  <text x="600" y="152" text-anchor="middle" class="sub f2">Backend &amp; Android Developer  •  AI Agents  •  IEEE Author</text>
+</svg>
